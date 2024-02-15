@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #282c34; /* Dark background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px; /* Adjusted for visibility */
+  color: white; /* Light text for contrast */
+}
+
+.App-header {
+  background-color: #20232a; /* Slightly lighter than App background */
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/* Ensure any child of App that should be scrollable has a max-height or overflow set */
+.scrollable-content {
+  max-height: 80vh; /* Example to ensure content does not exceed the viewport height */
+  overflow-y: auto; /* Allows scrolling */
+}
+
+/* Make sure the body has no margin */
+body {
+  margin: 0;
+}
